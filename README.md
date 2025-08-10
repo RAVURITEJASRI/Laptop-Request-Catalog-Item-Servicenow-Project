@@ -65,7 +65,6 @@ Save the catalog item after adding variables.
   - Order: 100
 
 ---
-
 ### 5️⃣ Add UI Action - Reset Button
 - Go to **System Definition > UI Actions**
 - Create new:
@@ -78,6 +77,7 @@ function resetForm() {
     g_form.clearForm(); // Clears all fields in the form
     alert("The form has been reset.");
 }
+`````
 ---
 ### 6️⃣ Export Update Set
 Go to your Update Set
@@ -85,8 +85,10 @@ Go to your Update Set
 Set state to Complete
 
 Export to XML
+
 ---
-7️⃣ Import Update Set on Another Instance
+
+### 7️⃣ Import Update Set on Another Instance
 Open another instance
 
 Go to System Update Sets > Retrieved Update Sets
@@ -95,7 +97,9 @@ Import the XML file
 
 Preview and Commit the update set
 
-✅ Testing the Catalog Item
+---
+
+### ✅ Testing the Catalog Item
 Navigate to Service Catalog > Hardware > Laptop Request
 
 Test dynamic behavior:
@@ -106,7 +110,9 @@ When Additional Accessories is checked → Accessories Details field appears and
 
 Confirm functionality meets all requirements
 
-📈 Outcome
+---
+
+### 📈 Outcome
 Simplified and standardized laptop request process
 
 Real-time validations and guided form completion
@@ -115,8 +121,12 @@ Trackable changes and easily deployable between instances
 
 Improved user experience and IT governance
 
-✅ Conclusion
+---
+
+### ✅ Conclusion
  The Laptop Request Catalog Item project successfully streamlines the process of requesting laptops within the organization by leveraging ServiceNow's Service Catalog capabilities. Through the implementation of a dynamic catalog item, the project ensures that users have an intuitive and user-friendly interface, reducing errors and improving efficiency.This project demonstrates how ServiceNow can be used to replace manual, error-prone processes with automated, efficient, and user-centric solutions. It not only improves service delivery but also enhances employee satisfaction by providing a modern and streamlined request experience.
+
+---
 
 📂 Technologies Used
 ServiceNow Platform
