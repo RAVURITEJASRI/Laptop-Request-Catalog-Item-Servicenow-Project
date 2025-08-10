@@ -138,5 +138,3 @@ UI Policies
 Catalog Client Scripts
 
 Update Sets (XML)
-
-DEMO LINK:
