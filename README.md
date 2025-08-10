@@ -78,15 +78,14 @@ function resetForm() {
     g_form.clearForm(); // Clears all fields in the form
     alert("The form has been reset.");
 }
-
-
-6️⃣ Export Update Set
+---
+### 6️⃣ Export Update Set
 Go to your Update Set
 
 Set state to Complete
 
 Export to XML
-
+---
 7️⃣ Import Update Set on Another Instance
 Open another instance
 
